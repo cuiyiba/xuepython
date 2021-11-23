@@ -11,22 +11,20 @@ print ("2号	     牛仔裤	        86.3	    600	      60")
 总销售额
 '''
 amunt = (253.6*10+86.3*60)
-print("总金额：")
-print(amunt)
-'''
-平均值
-'''
+print("总金额：",amunt)
+#print()
+
+#平均值
 average = ((253.6*10+86.3*60)/2)
-print("日均金额")
-print(average)
-'''
-种类月销售量占比
-'''
-ku = amunt-253.6*10
-kupercentage = ku%amunt
-sy = amunt-86.3*60
-sypercentage = sy%amunt
-print("裤子占比")
-print(kupercentage)
-print("上衣占比")
-print(sypercentage)
+print("日均金额：",average)
+#print()
+
+#种类月销售量占比
+
+ku = 253.6*10
+kupercentage = ku/amunt
+sy = 86.3*60
+sypercentage = sy/amunt
+print("裤子占比：",kupercentage*100,"%")
+print("上衣占比：",sypercentage*100,"%")
+#print(sypercentage)
