@@ -68,7 +68,6 @@ class cashier ():
                count - wage, "元")
         break
 
-
 c = cook ()
 c1 = cook ()
 c2 = cook ()
